@@ -1,0 +1,71 @@
+header{
+    background-color: rgb(97, 175, 149);
+    text-align: center;
+    font-size: x-large; 
+    font-weight: bolder;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+
+ul{
+    max-width: 1600px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 2%;
+}
+
+
+.disco{
+    background-color: antiquewhite;
+    padding: 4%;
+    margin: auto;   
+    width: 800px;
+    position: relative;
+}
+
+.disco .texto-disco{
+    position: absolute;
+    padding: 1%;
+    font-size: medium;
+    font-family:sans-serif; 
+}
+
+#welcome{
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif; 
+    margin: auto;   
+    width: 800px;
+}
+
+section{
+    position: relative;
+    top: 300px;
+}
+
+.capa{
+    width: 20%;
+}
+
+a{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: large;
+}
+
+#modular{
+    opacity: 60%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 3%;
+};
