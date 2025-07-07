@@ -1,8 +1,6 @@
 var appEletric = angular.module('appEletric', []);
 
-appEletric.controller('EletricController', function($scope){
-    $scope.testes = ['teste1', 'teste2', 'teste3'];
-    
+appEletric.controller('EletricController', function($scope){    
     $scope.discos = [
         {   nome: "Kraftwerk - The Man Machine", 
             ano: 1978, 
